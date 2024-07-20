@@ -1,0 +1,17 @@
+.buttonRed{
+    background-color: rgb(242, 99, 99);
+    color: white;
+}
+
+.buttonRed:hover{
+    background-color: rgb(255, 82, 82);
+
+}
+
+.buttonRed:active{
+    background-color: rgb(177, 69, 69);
+}
+
+.borderBlack{
+    border: 1px solid black;
+}

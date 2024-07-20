@@ -5,7 +5,8 @@ export default function App() {
     const items = ["lune", "marte", "e mierkole", "juebe"];
     return (
         <>
-            <section className="container flex-column gap-2 my-3">
+            <section className="container align-items-start">
+                <ListButton>{items}</ListButton>
                 <ListButton>{items}</ListButton>
             </section>
             <section className="container">
